@@ -1,0 +1,140 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background: url('fit7.jpg') no-repeat center center/cover;
+}
+
+#navbar
+{
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+#navbar::before
+{
+    content: "";
+    background-color:white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+}
+
+#navbar ul{
+    flex-direction: column;
+    text-align: center;
+}
+#navbar ul li a
+{
+    font-size: 2rem;
+    padding: 0px 8px;
+    padding-bottom: 8px;
+    color: white;
+}
+
+
+
+
+/*#contact-box form
+{
+    width: 100%;
+}
+
+#contact
+{
+width: 75%;
+margin-top: 225px;
+}*/
+
+#contact
+{
+    position: relative;
+    border: 2px solid white;
+    margin: 50px 80px;
+    padding: 28px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* border-radius: 28px; */
+    justify-content: center;
+    margin-left: 2px;
+    width: 72%;
+    margin-top: 22%;
+}
+
+.center
+{
+    text-align: center;
+    color: white;
+    font-size: 2.3rem;
+}
+
+#contact::before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#contact-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input
+{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form
+{
+    width: 80%;
+}
+
+.form-group input
+{
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    font-size: 25px;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin: 11px auto;
+}
+
+.btn
+{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding:4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    
+
+}
+
+.btn:hover{
+    background-color: rgb(80, 74, 74);
+}
